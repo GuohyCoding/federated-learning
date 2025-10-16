@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# Python version: 3.6
 
 import matplotlib
 matplotlib.use('Agg')
@@ -17,7 +14,7 @@ from models.Nets import MLP, CNNMnist, CNNCifar
 from models.Fed import FedAvg
 from models.test import test_img
 
-
+# 我在家
 if __name__ == '__main__':
     # parse args
     args = args_parser()
